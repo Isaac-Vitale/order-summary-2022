@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;   
+    justify-content: center;
+    align-items: center; 
+    background-color: azure;
+}
+
+main{
+    width: 33%;
+    background-color: grey;
+}
+
+.container{
+    border-radius: 20px;
+}
