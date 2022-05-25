@@ -12,11 +12,59 @@ body{
     background-color: azure;
 }
 
-main{
-    width: 33%;
-    background-color: grey;
+.main{
+    width: 30%;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.container .hero{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .container{
+    height: 500px;
+    margin: auto;
     border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.cuerpo{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.cuerpo h1{
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+}
+
+.cuerpo p{
+    color: grey;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.oferta{
+    width: 380px;
+
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+}
+
+.oferta div{
+    align-items: center;
+    background-color: aqua;
+    margin-left: 50px;
+    height: 100px;
 }
